@@ -1,0 +1,66 @@
+.outer {
+  position: relative;
+  overflow: hidden;
+  background-image: inherit;
+  background-repeat: inherit;
+  background-attachment: inherit;
+  background-origin: inherit;
+  background-clip: inherit;
+  background-color: inherit;
+  background-size: cover;
+  background-position: center center;
+}
+
+.wrapper {
+  margin: 0 auto;
+  position: relative;
+}
+
+@media (min-width: 1200px) {
+  .inner {
+    width: 1040px;
+    height: auto;
+  }
+}
+
+@media (min-width: 1142px) {
+  .main_img_size {
+    position: absolute;
+    top: 150px;
+    width: 400px;
+    height: 338px;
+    background-size: 400px 338px;
+    padding-top: 280px;
+    font-size: 15px;
+  }
+
+  .sub_img_size {
+    background-size: 54px 54px;
+    height: 54px;
+    padding: 5px 0px 5px 62px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-right: 39px;
+  }
+}
+
+.count_section {
+  margin-left: 623px;
+  padding-top: 150px;
+}
+
+.count_section .font_style {
+  font-size: 36px;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+
+.count_section .font_style strong {
+  font-weight: bold;
+}
+
+.best_section {
+  margin: 50px 0px 140px 623px;
+  white-space: nowrap;
+}

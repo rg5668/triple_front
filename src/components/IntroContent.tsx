@@ -22,14 +22,19 @@ const TripLogo = styled.div`
   @keyframes fadeInUp {
     0% {
       opacity: 0;
-      transform: translateY(20%);
+      transform: translateY(0%);
     }
-    100% {
+    5% {
+      opacity: 0;
+      transform: translateY(5%);
+    }
+    to {
       opacity: 1;
-      transform: none;
     }
   }
-  animation: fadeInUp 700ms ease-in-out 0ms;
+  animation-name: fadeInUp;
+  animation-delay: 100ms;
+  animation-duration: 700ms;
 `
 
 const IntroContent = ({}) => {

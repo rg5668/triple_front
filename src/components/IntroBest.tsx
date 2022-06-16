@@ -9,18 +9,19 @@ const BestAwardDiv = styled.div`
   @keyframes fadeInUp {
     0% {
       opacity: 0;
-      transform: translateY(10%);
+      transform: translateY(0%);
     }
-    50% {
+    5% {
       opacity: 0;
-      transform: translateY(10%);
+      transform: translateY(5%);
     }
-    100% {
-      opacity: 100%;
-      transform: none;
+    to {
+      opacity: 1;
     }
   }
-  animation: fadeInUp 700ms ease-in-out 200ms;
+  animation-name: fadeInUp;
+  animation-delay: 300ms;
+  animation-duration: 2.1s;
 `
 
 const GoogleLogo = styled.div`

@@ -10,16 +10,17 @@ const CountDiv = styled.div`
       opacity: 0;
       transform: translateY(0%);
     }
-    50% {
+    5% {
       opacity: 0;
       transform: translateY(5%);
     }
-    100% {
+    to {
       opacity: 1;
-      transform: none;
     }
   }
-  animation: fadeInUp 700ms ease-in-out 100ms;
+  animation-name: fadeInUp;
+  animation-delay: 200ms;
+  animation-duration: 1.4s;
 `
 
 const CountFontStyle = styled.div`
@@ -30,29 +31,29 @@ const CountFontStyle = styled.div`
 `
 
 const IntroCount = ({}) => {
-  const userCount = Count(700)
-  const reviewCount = Count(101)
+  const userCount = Count(350)
+  const reviewCount = Count(21)
   const scheduleCount = Count(650)
 
   return (
     <CountDiv>
       <CountFontStyle>
         <strong>
-          <span id="user">{userCount}</span>만 명
+          <span>{userCount}</span>만 명
         </strong>
         의 여행자
       </CountFontStyle>
 
       <CountFontStyle>
         <strong>
-          <span id="review">{reviewCount}</span>만 개
+          <span>{reviewCount}</span>만 개
         </strong>
         의 여행 리뷰
       </CountFontStyle>
 
       <CountFontStyle>
         <strong>
-          <span id="schedule">{scheduleCount}</span>만 개
+          <span>{scheduleCount}</span>만 개
         </strong>
         의 여행 일정
       </CountFontStyle>

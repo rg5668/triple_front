@@ -22,7 +22,7 @@ const Inner = styled.div`
 
   @media (min-width: 1200px) {
     width: 1040px;
-    height: auto;
+    height: 100vh;
   }
 `
 

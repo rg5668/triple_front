@@ -1,46 +1,40 @@
-# Getting Started with Create React App
+# 트리플 사전 과제 및 설명
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 프로젝트 실행 방법
 
-## Available Scripts
+1. 빈 폴더를 생성한다.
+2. 터미널을 사용해 해당 경로로 이동한다.
+3. 해당 명령어를 순차적으로 입력한다.  
+   3-1. git clone https://github.com/rg5668/triple_front.git  
+   3-2. npm i  
+   3-3. npm start
 
-In the project directory, you can run:
+## 사용 기술 및 이유
 
-### `npm start`
+![skills](https://user-images.githubusercontent.com/77878618/174481458-3d7874f1-33e1-476a-85ef-8a1c2a95dbe4.PNG)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### React
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. 컴포넌트의 재사용성이 좋다.
+2. UI 수정이 좋고 코드 가독성을 높일 수 있다.
+3. 여러개 로직을 분리하는 것이 아닌 Component 하나로 관리가 가능하다. (Controller, model, view, template)
+4. React 공식 문서와 방대한 커뮤니티로 쉽게 접하고 배울 수 있다.
 
-### `npm test`
+#### Typescript
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. 정적타입을 지원해 컴파일 단계에서 오류를 찾을 수 있다.
+2. javascript와 상호호환이다.
 
-### `npm run build`
+#### Styled-Components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. 자유로운 CSS Component를 만들 수 있다.
+2. className을 일일이 수동으로 관리할 필요 없이 Component에 스타일 속성을 주기 때문에 간단하고 직관적이다.
+3. className에 중복되어 생기는 문제를 해결할 수 있다.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 폴더 구조
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![tree](https://user-images.githubusercontent.com/77878618/174481293-22ca4073-ed2f-439a-b8b2-a48cfecd37a2.PNG)
 
-### `npm run eject`
+## 결과물
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+https://user-images.githubusercontent.com/77878618/174480826-b1d7c79b-aa6d-42f6-b350-ec227ed22cad.mp4

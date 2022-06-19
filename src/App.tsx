@@ -2,7 +2,7 @@ import Intro from 'pages/Intro'
 import ResetStyles from 'styles/ResetStyles'
 import Colors from 'constants/colors'
 
-function App() {
+const App = ({}) => {
   return (
     <div className="App">
       <ResetStyles />

@@ -6,14 +6,6 @@ import IntroCount from 'components/IntroCount'
 const Container = styled.section`
   position: relative;
   overflow: hidden;
-  background-image: inherit;
-  background-repeat: inherit;
-  background-attachment: inherit;
-  background-origin: inherit;
-  background-clip: inherit;
-  background-color: inherit;
-  background-size: cover;
-  background-position: center center;
 `
 
 const Inner = styled.div`

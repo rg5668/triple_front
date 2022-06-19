@@ -20,7 +20,7 @@ const CountDiv = styled.div`
   }
   animation-name: fadeInUp;
   animation-delay: 200ms;
-  animation-duration: 1.4s;
+  animation-duration: 700ms;
 `
 
 const CountFontStyle = styled.div`
@@ -31,8 +31,8 @@ const CountFontStyle = styled.div`
 `
 
 const IntroCount = ({}) => {
-  const userCount = Count(350)
-  const reviewCount = Count(21)
+  const userCount = Count(700)
+  const reviewCount = Count(210)
   const scheduleCount = Count(650)
 
   return (

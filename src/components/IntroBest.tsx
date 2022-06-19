@@ -21,7 +21,7 @@ const BestAwardDiv = styled.div`
   }
   animation-name: fadeInUp;
   animation-delay: 300ms;
-  animation-duration: 2.1s;
+  animation-duration: 700ms;
 `
 
 const GoogleLogo = styled.div`

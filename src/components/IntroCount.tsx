@@ -31,8 +31,8 @@ const CountFontStyle = styled.div`
 `
 
 const IntroCount = ({}) => {
-  const userCount = Count(700)
-  const reviewCount = Count(210)
+  const userCount = Count(350)
+  const reviewCount = Count(21)
   const scheduleCount = Count(650)
 
   return (

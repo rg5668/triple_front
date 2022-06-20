@@ -3,10 +3,11 @@
 ## 프로젝트 실행 방법
 1. 빈 폴더를 생성한다.
 2. 터미널을 사용해 해당 경로로 이동한다.
-3. 해당 명령어를 순차적으로 입력한다.  
+3. 해당 명령어를 입력한다.  
 3-1. git clone https://github.com/rg5668/triple_front.git  
-3-2. npm i  
-3-3. npm start
+4. triple_front 폴더로 이동한다.  
+4-1. npm i  
+4-2. npm start
 
 ## 사용 기술 및 이유
 ![skills](https://user-images.githubusercontent.com/77878618/174481458-3d7874f1-33e1-476a-85ef-8a1c2a95dbe4.PNG)  

@@ -20,7 +20,7 @@ const BestAwardDiv = styled.div`
     }
   }
   animation-name: fadeInUp;
-  animation-delay: 300ms;
+  animation-delay: 100ms;
   animation-duration: 700ms;
 `
 

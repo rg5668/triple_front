@@ -33,7 +33,7 @@ const TripLogo = styled.div`
     }
   }
   animation-name: fadeInUp;
-  animation-delay: 100ms;
+
   animation-duration: 700ms;
 `
 

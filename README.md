@@ -9,7 +9,8 @@
 3-3. npm start
 
 ## 사용 기술 및 이유
-![skills](https://user-images.githubusercontent.com/77878618/174481458-3d7874f1-33e1-476a-85ef-8a1c2a95dbe4.PNG)
+![skills](https://user-images.githubusercontent.com/77878618/174481458-3d7874f1-33e1-476a-85ef-8a1c2a95dbe4.PNG)  
+
 React
 1. 컴포넌트의 재사용성이 좋다.
 2. UI 수정이 좋고 코드 가독성을 높일 수 있다.

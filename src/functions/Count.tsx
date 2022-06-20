@@ -1,29 +1,26 @@
 import { useEffect, useState } from 'react'
-import Slow from './Slow'
 
-const Count = (props: number) => {
+const Count = (introCount: number) => {
   const [count, setCount] = useState(0)
 
   useEffect(() => {
-    let total: number = 0
+    let increase: number = 0
     let slowTime: number = 60
     let duration = 2000 / slowTime
-    const totalFrames = Math.round(2000 / duration)
+    const total = Math.round(2000 / duration)
 
     const userCount = setInterval(() => {
-      total++
-      const progress = total / totalFrames
-      const currentCount = Math.round(props * progress)
-
-      if (props >= 0) {
+      increase++
+      const progress = increase / total
+      const currentCount = Math.round(introCount * progress)
+      if (introCount >= 0) {
         setCount(currentCount)
       }
-
-      if (total === totalFrames) {
+      if (increase === total) {
         clearInterval(userCount)
       }
     }, duration)
-  }, [props])
+  }, [introCount])
 
   return count
 }
